@@ -9,7 +9,7 @@ from PIL import ImageFont
 
 # D/C and RESET GPIO numbers (modify only if needed)
 DC_PIN = 16       # DISP_D/C (PL12 from schematic example)
-RESET_PIN = 18    # DISP_RESET (PI16 from schematic)
+RESET_PIN = 8    # DISP_RESET (PI16 from schematic)
 
 # Create SPI interface using /dev/spidev1.0
 serial = spi(
